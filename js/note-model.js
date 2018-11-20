@@ -6,9 +6,9 @@
     this.array = []
   };
 
-   Note.prototype.addNote = function () {
+   Note.prototype.addNote = function (text) {
 
-    this.array += this.text
+    this.array += text
 
   };
 

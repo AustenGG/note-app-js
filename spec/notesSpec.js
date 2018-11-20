@@ -13,7 +13,7 @@
   function testPushed() {
     var note = new Note;
 
-    note.addNote()
+    note.addNote("Test2")
 
     if (note.array.length == 0 ) {
         throw new Error("the array is empty");
