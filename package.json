@@ -1,0 +1,22 @@
+{
+  "name": "js-notes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "note-list-view.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AustenGG/note-app-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AustenGG/note-app-js/issues"
+  },
+  "homepage": "https://github.com/AustenGG/note-app-js#readme",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}

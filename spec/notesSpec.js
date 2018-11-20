@@ -19,9 +19,20 @@
         throw new Error("the array is empty");
       }
 
-  }
+  };
 
+  function testPrint() {
+    var note = new Note;
+
+    note.addNote("Test2")
+    note.printArray()
+
+    if (note.printArray !== "Test2" ) {
+        throw new Error("the array doesn't print correct");
+    }
+};
 
 testNoteIsCreated();
 testPushed();
+testPrint();
 })(this);
