@@ -1,6 +1,6 @@
-function changeText(){
-  document.getElementById("text").innerHTML = "Howdy";
-}
+// function changeText(){
+//   document.getElementById("text").innerHTML = "Howdy";
+// }
 
 function Output(){
   var note = new Note
