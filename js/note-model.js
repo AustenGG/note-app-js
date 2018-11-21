@@ -18,6 +18,5 @@
 
  };
 
-
   exports.Note = Note;
 })(this);

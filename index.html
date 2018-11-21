@@ -4,11 +4,19 @@
     <script src="spec/notesSpec.js"></script>
     <script src="note-list-view.js"></script>
     <script src="js/note-controller.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    <span id="text"> Hello </span>
-      <button onclick=changeText();>Change text</button>
-    </div>
-    <p id="para">Some text here</p>
+    <center>
+    <h1> Notes app </h1>
+    <textarea id="user_input" rows="4" cols="50" name="comment" form="usrform">
+     Enter note here...</textarea>
+    <h2> <span id="text"> Hello </span>
+      <button onclick=changeText();>Submit note</button>
+    </h2>
+      <h2> <span id="note"> Note </span>
+        <button id="btn" onclick=Output();>Submit note</button>
+      </h2>
+    </center>
   </body>
 </html>
