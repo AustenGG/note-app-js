@@ -6,16 +6,15 @@
     <script src="js/note-controller.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
-  <body>
+    <body onload=Ready();>
     <center>
     <h1> Notes app </h1>
-    <textarea id="user_input" rows="4" cols="50" name="comment" form="usrform">
-     Enter note here...</textarea>
-    <!-- <h2> <span id="text"> Hello </span>
-      <button onclick=changeText();>Submit note</button>
-    </h2> -->
-      <h3> <span id="note"> Notes: </span></h3>
-        <button id="btn" onclick=Output();>Submit note</button>
+    <textarea id="user_input" rows="4" cols="50" name="comment" form="usrform" placeholder="
+     Enter note here..."></textarea>
+     <p> </p>
+    <button id="all" > Display all current note </button> </right>
+      <button id="btn" onclick=Output();>Submit note</button>
+      <h3> <span id="note"> Notes: </span></h3> <right>
     </center>
   </body>
 </html>
